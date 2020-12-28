@@ -1,0 +1,24 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "A command-line application that generates a REAME.md file for the user based on the user's input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbeedle19/readme-generator.git"
+  },
+  "keywords": [
+    "README.md",
+    "readme",
+    "generator"
+  ],
+  "author": "Joshua Beedle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbeedle19/readme-generator/issues"
+  },
+  "homepage": "https://github.com/jbeedle19/readme-generator#readme"
+}
