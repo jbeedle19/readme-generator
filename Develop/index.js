@@ -1,9 +1,10 @@
 // TODO: Include packages needed for this application
+const { fstat } = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
-const questions = [];
+//const questions = [];
 
 const promptUser = () => {
     return inquirer.prompt([
@@ -118,7 +119,19 @@ promptUser()
     });
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
-
+const writeFile = fileContent => {
+    fs.writeFile('.')
+    return new Promise((resolve, reject) => {
+        if (err) {
+            reject(err);
+            return;
+        }
+        resolve({
+            ok: true,
+            message: 'File created!'
+        });
+    });
+}
 // TODO: Create a function to initialize app
 //function init() {}
 
