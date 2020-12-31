@@ -4,7 +4,8 @@
   "description": "A command-line application that generates a REAME.md file for the user based on the user's input",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Develop/index.js"
   },
   "repository": {
     "type": "git",
