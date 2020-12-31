@@ -1,5 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+// 
 function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
@@ -42,7 +43,7 @@ ${data.contributing}
 ${data.tests}
 
 ## License
-${data.license}
+[${data.license}](LICENSE)
 
 ## Questions
 If you have any additional questions please reach me through email or GitHub.
