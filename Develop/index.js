@@ -83,7 +83,7 @@ const promptUser = () => {
             type: 'list',
             name: 'license',
             message: 'Which license does your project use?',
-            choices: ['MIT', 'Apache', 'GPLv2', 'BSD 3-clause', 'GPLv3', 'No License']
+            choices: ['MIT', 'Apache', 'GPLv2', 'BSD-3-clause', 'GPLv3', 'No-License']
         },
         {
             type: 'input',
@@ -133,16 +133,18 @@ const writeFile = fileContent => {
 function init() {
     promptUser()
     .then(data => {
-        return console.log(data);
+        console.log(data);
+        return data; 
     })
     .then(data => {
         return generateMarkdown(data);
     })
     .then(readmeInput => {
+        console.log(readmeInput);
         return writeFile(readmeInput);
     })
     .then(writeFileResponse => {
-        console.log(writeFileResponse);
+        console.log(writeFileResponse.message);
     })
     .catch(err => {
         console.log(err);
