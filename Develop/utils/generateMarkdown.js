@@ -7,12 +7,12 @@ function renderLicenseBadge(license) {}
 // links to the actual license file in users directory
 // THIS IS NOT NECESSARY
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+//function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // Just displays the name like you already have with 'data.license'
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+//function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
