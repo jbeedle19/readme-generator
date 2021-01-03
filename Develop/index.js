@@ -11,6 +11,7 @@ const promptUser = () => {
             type: 'input',
             name: 'title',
             message: 'What is the title of your project?',
+            default: 'README Generator',
             validate: titleInput => {
                 if (titleInput) {
                     return true;
@@ -23,6 +24,7 @@ const promptUser = () => {
             type: 'input',
             name: 'description',
             message: 'Provide a description of the project.',
+            default: 'Generates a README.md file based off the answers that the user provides.',
             validate: descriptionInput => {
                 if (descriptionInput) {
                     return true;
@@ -35,6 +37,7 @@ const promptUser = () => {
             type: 'input',
             name: 'installation',
             message: 'Provide installation instructions for your project.',
+            default: 'Download the zip file or copy the repo to your computer.',
             validate: installationInput => {
                 if (installationInput) {
                     return true;
@@ -47,6 +50,7 @@ const promptUser = () => {
             type: 'input',
             name: 'usage',
             message: 'Provide usage instructions for your project.',
+            default: 'Download the file and navigate into the folder through the command line. Type "npm start" in order to run the application. Answer each question and upon completion open the README.md file created in the dist folder. Watch the following video for further explanation (video link).',
             validate: usageInput => {
                 if (usageInput) {
                     return true;
@@ -59,6 +63,7 @@ const promptUser = () => {
             type: 'input',
             name: 'contributing',
             message: 'Provide contribution guidelines for your project.',
+            default: 'In order to contribute you can do X, Y, and Z.',
             validate: contributingInput => {
                 if (contributingInput) {
                     return true;
@@ -71,6 +76,7 @@ const promptUser = () => {
             type: 'input',
             name: 'tests',
             message: 'Provide testing instructions for your project.',
+            default: 'There is a test that tests X and you can type Y to run it.',
             validate: testInput => {
                 if (testInput) {
                     return true;
@@ -83,12 +89,14 @@ const promptUser = () => {
             type: 'list',
             name: 'license',
             message: 'Which license does your project use?',
+            default: 'MIT',
             choices: ['MIT', 'Apache', 'GPLv2', 'BSD-3-clause', 'GPLv3', 'No-License']
         },
         {
             type: 'input',
             name: 'username',
             message: 'What is your GitHub username?',
+            default: 'jbeedle19',
             validate: usernameInput => {
                 if (usernameInput) {
                     return true;
@@ -101,6 +109,7 @@ const promptUser = () => {
             type: 'input',
             name: 'email',
             message: 'What is your email address?',
+            default: 'josh.beedle@gmail.com',
             validate: emailInput => {
                 if (emailInput) {
                     return true;
