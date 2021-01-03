@@ -23,7 +23,7 @@ const promptUser = () => {
             type: 'input',
             name: 'description',
             message: 'Provide a description of the project.',
-            default: 'Generates a README.md file based off the answers that the user provides.',
+            default: 'Generates a README file based off the answers that the user provides.',
             validate: descriptionInput => {
                 if (descriptionInput) {
                     return true;
@@ -49,7 +49,7 @@ const promptUser = () => {
             type: 'input',
             name: 'usage',
             message: 'Provide usage instructions for your project.',
-            default: 'Download the file and navigate into the folder through the command line. Type "npm start" in order to run the application. Answer each question and upon completion open the README.md file created in the dist folder. Watch the following video for further explanation (video link).',
+            default: 'Download the file and navigate into the folder through the command line. Type "npm start" in order to run the application. Answer each question and upon completion open the README file created in the dist folder. Watch the following video for further explanation (video link).',
             validate: usageInput => {
                 if (usageInput) {
                     return true;
@@ -88,7 +88,6 @@ const promptUser = () => {
             type: 'list',
             name: 'license',
             message: 'Which license does your project use?',
-            default: 'MIT',
             choices: ['MIT', 'Apache', 'GPLv2', 'BSD-3-clause', 'GPLv3', 'No-License']
         },
         {
