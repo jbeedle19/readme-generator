@@ -1,9 +1,9 @@
 # README Generator
 
-![MIT](https://img.shields.io/badge/LICENSE-MIT-blue)
+![Apache](https://img.shields.io/badge/LICENSE-Apache-blue)
 
 ## Description
-Generates a README based on the users responses
+Generates a README file based off the answers that the user provides.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -26,9 +26,11 @@ In order to contribute you can do X, Y, and Z.
 There is a test that tests X and you can type Y to run it.
 
 ## License
-MIT
+Apache
 
 ## Questions
 If you have any additional questions please reach me through email or GitHub.
+
 GitHub: [jbeedle19](https://github.com/jbeedle19)
+
 Email: [josh.beedle@gmail.com](mailto:josh.beedle@gmail.com)

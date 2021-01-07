@@ -10,7 +10,7 @@ const promptUser = () => {
             type: 'input',
             name: 'title',
             message: 'What is the title of your project?',
-            //default: 'README Generator',
+            default: 'README Generator',
             validate: titleInput => {
                 if (titleInput) {
                     return true;
@@ -23,7 +23,7 @@ const promptUser = () => {
             type: 'input',
             name: 'description',
             message: 'Provide a description of the project.',
-            //default: 'Generates a README file based off the answers that the user provides.',
+            default: 'Generates a README file based off the answers that the user provides.',
             validate: descriptionInput => {
                 if (descriptionInput) {
                     return true;
@@ -94,7 +94,7 @@ const promptUser = () => {
             type: 'input',
             name: 'username',
             message: 'What is your GitHub username?',
-            //default: 'jbeedle19',
+            default: 'jbeedle19',
             validate: usernameInput => {
                 if (usernameInput) {
                     return true;
@@ -107,7 +107,7 @@ const promptUser = () => {
             type: 'input',
             name: 'email',
             message: 'What is your email address?',
-            //default: 'josh.beedle@gmail.com',
+            default: 'josh.beedle@gmail.com',
             validate: emailInput => {
                 if (emailInput) {
                     return true;
@@ -140,14 +140,12 @@ const writeFile = fileContent => {
 function init() {
     promptUser()
     .then(data => {
-        //console.log(data);
         return data; 
     })
     .then(data => {
         return generateMarkdown(data);
     })
     .then(readmeInput => {
-        //console.log(readmeInput);
         return writeFile(readmeInput);
     })
     .then(writeFileResponse => {
