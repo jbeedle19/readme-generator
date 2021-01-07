@@ -1,26 +1,28 @@
 # README Generator
 
 ## Description
-A command-line application that generates a README.md file for the user according to the answers they provide.
+A command-line application that generates a README file for the user according to the answers they provide.
 
 ## Installation
-How to install the app
-clone the repo onto local comp
-(git clone + url)
-after downloading repo
+Clone the repo to your local computer
+```JavaScript
+git clone git@github.com:jbeedle19/readme-generator.git
+``` 
+After cloning the repo run
 ```JavaScript
 npm install
 ``` 
 
 ## Usage
-How to start the app
-(npm start)
-How to use the app including screenshots/videos
-save screencastify to comp, use giphy to make gif instead of video
-download giphy capture to make the gif
-take defaults out before making video (maybe leave in longer ones to save time)
+In the terminal, navigate to the directory and run
+```JavaScript
+npm start
+``` 
+Answer the questions and the README will be generated in the dist folder. See gif and/or video link below for a walkthrough.
 
-![test walkthrough](https://media.giphy.com/media/4Fricfpu6q6YSiW4pY/giphy.gif)
+![walkthrough](./walkthrough.gif)
+[Video Link](https://drive.google.com/file/d/1U2uN04UoemomF5J1hlMu7q_kS-jDt3gz/view)
+
 
 
 ## Built With
