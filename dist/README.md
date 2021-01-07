@@ -1,8 +1,9 @@
 # README Generator
-Badge goes here
+
+![MIT](https://img.shields.io/badge/LICENSE-MIT-blue)
 
 ## Description
-Generates a README file based off the answers that the user provides.
+Generates a README based on the users responses
 
 ## Table of Contents
 * [Installation](#installation)
@@ -16,7 +17,7 @@ Generates a README file based off the answers that the user provides.
 Download the zip file or copy the repo to your computer.
 
 ## Usage
-Download the file and navigate into the folder through the command line. Type "npm start" in order to run the application. Answer each question and upon completion open the README.md file created in the dist folder. Watch the following video for further explanation (video link).
+Download the file and navigate into the folder through the command line. Type "npm start" in order to run the application. Answer each question and upon completion open the README file created in the dist folder. Watch the following video for further explanation (video link).
 
 ## Contributing
 In order to contribute you can do X, Y, and Z.
@@ -25,7 +26,7 @@ In order to contribute you can do X, Y, and Z.
 There is a test that tests X and you can type Y to run it.
 
 ## License
-[Apache](LICENSE)
+MIT
 
 ## Questions
 If you have any additional questions please reach me through email or GitHub.
