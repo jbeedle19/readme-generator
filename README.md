@@ -21,6 +21,7 @@ npm start
 Answer the questions and the README will be generated in the dist folder. See gif and/or video link below for a walkthrough.
 
 ![walkthrough](./walkthrough.gif)
+
 [Video Link](https://drive.google.com/file/d/1U2uN04UoemomF5J1hlMu7q_kS-jDt3gz/view)
 
 
